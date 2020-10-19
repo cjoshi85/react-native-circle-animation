@@ -1,0 +1,12 @@
+{
+  "name": "popmotion-animation-react-native",
+  "displayName": "popmotion-animation-react-native",
+  "expo": {
+    "name": "popmotion-animation-react-native",
+    "slug": "popmotion-animation-react-native",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}

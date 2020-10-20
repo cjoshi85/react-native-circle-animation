@@ -1,12 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import AnimatedCallingScreen from "./AnimatedCallingScreen";
+import { Animated, StyleSheet, Text, View } from 'react-native';
+import AnimateButton from "./AnimateButton";
 
 export default function App() {
+  const animateValue = React.useRef(new Animated.Value(0)).current;
   return (
     <View style={styles.container}>
-      <AnimatedCallingScreen count={5} duration={4000}/>
+      <AnimateButton animateValue={animateValue}/>
     </View>
   );
 }
@@ -14,8 +15,5 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
   },
 });

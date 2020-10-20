@@ -1,9 +1,9 @@
 {
-  "name": "popmotion-animation-react-native",
-  "displayName": "popmotion-animation-react-native",
+  "name": "react-native-circle-animation",
+  "displayName": "react-native-circle-animation",
   "expo": {
-    "name": "popmotion-animation-react-native",
-    "slug": "popmotion-animation-react-native",
+    "name": "react-native-circle-animation",
+    "slug": "react-native-circle-animation",
     "version": "1.0.0",
     "assetBundlePatterns": [
       "**/*"
